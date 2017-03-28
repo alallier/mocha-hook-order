@@ -1,0 +1,14 @@
+{
+  "name": "mocha-hook-order",
+  "description": "A sample set of mocha test files to demostrate mocha hook order",
+  "author": "Alexander J. Lallier",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "3.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive --timeout 10000 test"
+  }
+}

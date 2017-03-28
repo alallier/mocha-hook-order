@@ -1,0 +1,35 @@
+> mocha-hook-order@0.1.0 test C:\Users\alallier\Documents\testMocha
+> mocha --recursive --timeout 10000 test
+
+Global: Before
+  Test A
+Test A: Before
+Global: Before Each
+Test A: Before Each
+    √ Test A.1
+Test A: After Each
+Global: After Each
+Global: Before Each
+Test A: Before Each
+    √ Test A.2
+Test A: After Each
+Global: After Each
+Test A: After
+
+  Test B
+Test B: Before
+Global: Before Each
+Test B: Before Each
+    √ Test B.1
+Test B: After Each
+Global: After Each
+Global: Before Each
+Test B: Before Each
+    √ Test B.2
+Test B: After Each
+Global: After Each
+Test B: After
+
+Global: After
+
+  4 passing (233ms)
